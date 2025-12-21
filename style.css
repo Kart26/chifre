@@ -67,16 +67,21 @@ body{
     width: 500px;
     height: auto;
 
+    float: left;
+    
+
+
 }
 
 .produto1 img,p{
     display: inline-block;
+
 }
+
 .preço {
-    vertical-align: top;
-    display: inline-block;
-    clear: both;
+    margin-left: 150px;
     font-size: 100px;
+    display: inline-block;
 }
 
 
