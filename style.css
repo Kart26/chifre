@@ -73,11 +73,6 @@ body{
 
 }
 
-.produto1 img,p{
-    display: inline-block;
-
-}
-
 .preço {
     margin-left: 150px;
     font-size: 100px;
