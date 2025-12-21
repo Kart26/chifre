@@ -1,34 +1,68 @@
+
+/*Adiciona novas fontes*/
+@font-face {
+    font-family: amogus;
+    src: url(fontes/In\ your\ face\,\ joffrey!.ttf) format('truetype');
+}
+
+
+/*--------Coisas gerais--------*/
+body{
+    font-family: amogus;
+    background-color: rgb(12, 9, 15);
+}
+/*-----------------------------*/
+
+
 .title{
-    margin-top: 80px;
-    margin-bottom: 80px;
     font-size: 50px;
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:greenyellow ;
-    
+    color:rgb(255, 255, 255) ;
 }
+
+.title h1 {
+    position: relative;
+}
+
+.title img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 34%;
+    object-fit: cover; /* imagem cobre toda a div */
+}
+
+/*Produtos*/
 .container{
-    grid-template-columns: repeat(5,auto);
-    display: grid;
-    flex-wrap:wrap;
+    display: flex;
+    flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
 }
-
 .container img {
-    width: 150px;
+    width: 200px;
   }
+
 .item{
-    line-height: 2px;
+    line-height: 20px;
     display: flex;
     flex-direction: column;
-    align-items:;
+    align-items: center;
     color: white;
     font-size: 20px;
 }
-body{
-    background-color: black;
+
+.item p{
+    margin: 4px 0;
 }
+
+.price{
+    color: rgb(110, 88, 109);
+}
+
+
+
 
 
 
