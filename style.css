@@ -25,7 +25,7 @@ body{
 }
 
 .title img {
-    position: absolute;
+    position:absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -35,6 +35,7 @@ body{
 
 /*Produtos*/
 .container{
+    margin-top: 100px;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -60,8 +61,24 @@ body{
 .price{
     color: rgb(110, 88, 109);
 }
+.produto1 img {
+    margin-left: 50px;
+    margin-top: 100px;
+    width: 500px;
+    height: auto;
 
-
+}
+.produto1 
+.produto1 img,p{
+    display: inline-block;
+    float: left;
+}
+.preço {
+    vertical-align: top;
+    display: inline-block;
+    clear: both;
+    font-size: 100px;
+}
 
 
 
