@@ -68,10 +68,9 @@ body{
     height: auto;
 
 }
-.produto1 
+
 .produto1 img,p{
     display: inline-block;
-    float: left;
 }
 .preço {
     vertical-align: top;
