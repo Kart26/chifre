@@ -40,11 +40,27 @@ body{
     padding-inline-end: 200px;
     margin-left: 720px;
 }
-
-
 .info{
     gap: 20px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+}
+.titulo{
+    display: flex;
+    
+}
+.imagem_seta{
+    position: absolute;
+    width: 70px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.zo{
+    vertical-align: 100px;
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 700px;
+    font-size: 90px;
+    color: aliceblue;
 }
