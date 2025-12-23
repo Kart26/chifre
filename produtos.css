@@ -1,0 +1,50 @@
+@font-face {
+    font-family: amogus;
+    src: url(fontes/In\ your\ face\,\ joffrey!.ttf) format('truetype');
+}
+
+body{
+    font-family: amogus;
+    background-color: rgb(12, 9, 15);
+}
+.conteiner{
+    display: flex;
+    padding-top: 100px;
+}
+
+.conteiner img {
+    margin-left: 100px;
+    width: 1000px;
+    height: auto;
+    position: absolute;
+    
+}
+.preço {
+    display: flex;
+    margin: 0;
+    font-size: 200px;
+    color: aliceblue;
+    margin-left: 1700px;
+}
+.nome{
+    display: flex;
+    font-size: 200px;
+    margin: 0;
+    color: aliceblue;
+    margin-left:1500px;
+}
+.bio{
+    color: aliceblue;
+    font-size: 50px;
+    box-sizing: border-box;
+    padding-inline-end: 500px;
+    margin-left: 1400px;
+}
+
+
+.info{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
