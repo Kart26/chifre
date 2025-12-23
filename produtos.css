@@ -14,7 +14,7 @@ body{
 
 .conteiner img {
     margin-left: 100px;
-    width: 1000px;
+    width: 500px;
     height: auto;
     position: absolute;
     
@@ -22,23 +22,23 @@ body{
 .preço {
     display: flex;
     margin: 0;
-    font-size: 200px;
+    font-size: 70px;
     color: aliceblue;
-    margin-left: 1700px;
+    margin-left: 890px;
 }
 .nome{
     display: flex;
-    font-size: 200px;
+    font-size: 80px;
     margin: 0;
     color: aliceblue;
-    margin-left:1500px;
+    margin-left:800px;
 }
 .bio{
     color: aliceblue;
-    font-size: 50px;
+    font-size: 30px;
     box-sizing: border-box;
-    padding-inline-end: 500px;
-    margin-left: 1400px;
+    padding-inline-end: 200px;
+    margin-left: 720px;
 }
 
 
