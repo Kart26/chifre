@@ -35,7 +35,7 @@ body{
 
 /*Produtos*/
 .container{
-    margin-top: 100px;
+    margin-top: 500px;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -60,6 +60,9 @@ body{
 
 .price{
     color: rgb(110, 88, 109);
+
+}
+=======
 }
 .produto1 img {
     margin-left: 50px;
@@ -78,6 +81,7 @@ body{
     font-size: 100px;
     display: inline-block;
 }
+
 
 
 
