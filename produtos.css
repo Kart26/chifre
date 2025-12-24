@@ -40,11 +40,26 @@ body{
     padding-inline-end: 200px;
     margin-left: 720px;
 }
+.comprar{
+    display: inline-block;
+    color: greenyellow;
+    background-color: green;
+    height: 90px;
+    width: 280px;
+    font-size: 60px;
+    margin-left: 850px;
+    border-radius: 30px;
+    text-transform:capitalize;
+    
+}
 .info{
     gap: 20px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+}
+h1, h2{
+    font-weight:normal;
 }
 .titulo{
     display: flex;
