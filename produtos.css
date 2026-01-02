@@ -25,6 +25,7 @@ body{
     font-size: 70px;
     color: aliceblue;
     margin-left: 890px;
+    flex-direction: column;
 }
 
 @media screen and (max-width: 768px) {
@@ -57,17 +58,15 @@ body{
     padding-inline-end: 200px;
     margin-left: 720px;
 }
-.comprar{
-    display: inline-block;
-    color: greenyellow;
+.button a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 80px;
     background-color: green;
-    height: 90px;
-    width: 280px;
-    font-size: 60px;
-    margin-left: 850px;
-    border-radius: 30px;
-    text-transform:capitalize;
-    
+    margin-left: 1000px;
+    padding:10px 40px;
+    margin-bottom: 1000px;
+    margin-left: 1000px;
 }
 .info{
     gap: 20px;
@@ -97,3 +96,84 @@ h1, h2{
     font-size: 90px;
     color: aliceblue;
 }
+
+@media screen and (max-width: 700px){
+
+    body{
+        font-family: amogus;
+        background-color: rgb(12, 9, 15);
+    }
+    .conteiner{
+        display: block;
+        padding-top: 100px;
+    }
+
+    .conteiner img {
+        width: 500px;
+        height: auto;
+        position: relative;
+        margin-left: 90px;
+        
+    }
+    .preço {
+        text-align: center;
+        display:block;
+        margin: 0;
+        font-size: 70px;
+        color: aliceblue;
+        padding-bottom: 50px;
+        flex-direction:row;
+    }
+    .nome{
+        display: flex;
+        font-size: 80px;
+        padding-top: 50px;
+        color: aliceblue;
+        margin-left:165px;
+    }
+    .bio{
+        color: aliceblue;
+        font-size: 30px;
+        box-sizing: border-box;
+        padding-inline-end: 80px;
+        margin-left: 150px;
+    }
+    .button a{
+        color: aliceblue;
+        text-decoration: none;
+        font-size: 80px;
+        background-color: green;
+        margin-left: 220px;
+        padding:10px 40px;
+        margin-bottom: 1000px;
+        
+    }
+    .info{
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    h1, h2{
+        font-weight:normal;
+    }
+    .titulo{
+        display: flex;
+        
+    }
+    .imagem_seta{
+        position: absolute;
+        width: 70px;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    .zo{
+        vertical-align: 100px;
+        margin: 0;
+        margin-top: 10px;
+        margin-left: 270px;
+        font-size: 90px;
+        color: aliceblue;
+    }
+} 
+300
