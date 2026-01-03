@@ -2,157 +2,62 @@
     font-family: amogus;
     src: url(fontes/In\ your\ face\,\ joffrey!.ttf) format('truetype');
 }
-
-body{
-    font-family: amogus;
-    background-color: rgb(12, 9, 15);
-}
-.conteiner{
-    display: flex;
-    padding-top: 100px;
-}
-
-.conteiner img {
-    margin-left: 100px;
-    width: 500px;
-    height: auto;
-    position: absolute;
-    
-}
-.preço {
-    display: flex;
-    margin: 0;
-    font-size: 70px;
-    color: aliceblue;
-    margin-left: 890px;
-    flex-direction: column;
-}
-
-@media screen and (max-width: 768px) {
-    .nome{
-
-
-        font-size: 80px;
-        margin: 0;
-        color: aliceblue;
-        flex-direction: column;
-    }
-}
-
-
-@media screen and (min-width: 768px) {
-    .nome{
-        display: flex;
-        font-size: 80px;
-        margin: 0;
-        color: aliceblue;
-        margin-left:800px;
-
-    }
-
-}
-.bio{
-    color: aliceblue;
-    font-size: 30px;
-    box-sizing: border-box;
-    padding-inline-end: 200px;
-    margin-left: 720px;
-}
-.button a{
-    color: aliceblue;
-    text-decoration: none;
-    font-size: 80px;
-    background-color: green;
-    margin-left: 1000px;
-    padding:10px 40px;
-    margin-bottom: 1000px;
-    margin-left: 1000px;
-}
-.info{
-    gap: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-h1, h2{
-    font-weight:normal;
-}
-.titulo{
-    display: flex;
-    
-}
-
-.imagem_seta{
-    position: absolute;
-    width: 70px;
-    margin-top: 20px;
-    margin-left: 50px;
-}
-.zo{
-    vertical-align: 100px;
-    margin: 0;
-    margin-top: 10px;
-    margin-left: 700px;
-    font-size: 90px;
-    color: aliceblue;
-}
-
-@media screen and (max-width: 700px){
-
+@media screen and (min-width: 700px){
     body{
         font-family: amogus;
         background-color: rgb(12, 9, 15);
     }
     .conteiner{
-        display: block;
+        display: flex;
         padding-top: 100px;
     }
-
     .conteiner img {
+        margin-left: 100px;
         width: 500px;
-        height: auto;
-        position: relative;
-        margin-left: 90px;
-        
+        height: 500px;
+        position:relative;
     }
     .preço {
-        text-align: center;
-        display:block;
+        display: flex;
         margin: 0;
         font-size: 70px;
         color: aliceblue;
-        padding-bottom: 50px;
-        flex-direction:row;
+        text-align: center;
+        flex-direction: column;
     }
     .nome{
         display: flex;
         font-size: 80px;
-        padding-top: 50px;
+        margin: 0;
         color: aliceblue;
-        margin-left:165px;
+        text-align: center;
     }
     .bio{
         color: aliceblue;
         font-size: 30px;
-        box-sizing: border-box;
-        padding-inline-end: 80px;
-        margin-left: 150px;
+        text-align: center;
+        align-self: center;
+        width: 300px;
     }
     .button a{
         color: aliceblue;
         text-decoration: none;
         font-size: 80px;
         background-color: green;
-        margin-left: 220px;
         padding:10px 40px;
-        margin-bottom: 1000px;
-        
+        margin-bottom: 1000px; 
+    }
+    .button{
+        text-align: center;
     }
     .info{
+        margin-left: 20px;
         gap: 20px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+        
+        
     }
     h1, h2{
         font-weight:normal;
@@ -171,9 +76,93 @@ h1, h2{
         vertical-align: 100px;
         margin: 0;
         margin-top: 10px;
-        margin-left: 270px;
+        margin-left: 700px;
         font-size: 90px;
         color: aliceblue;
     }
+}
+@media screen and (max-width: 700px){
+    body{
+        font-family: amogus;
+        background-color: rgb(12, 9, 15);
+    }
+    .conteiner{
+        display: block;
+        padding-top: 100px;
+    }
+
+    .conteiner img {
+        width: 500px;
+        height: 500px;
+        position:relative;
+    }
+    .img{
+        text-align: center;
+    }
+    .preço {
+        display: flex;
+        margin: 0;
+        font-size: 70px;
+        color: aliceblue;
+        text-align: center;
+        flex-direction: column;
+    }
+    .nome{
+        display: flex;
+        font-size: 80px;
+        margin: 0;
+        color: aliceblue;
+        text-align: center;
+        flex-direction: column;
+    }
+    .bio{
+        color: aliceblue;
+        font-size: 30px;
+        text-align: center;
+        align-self: center;
+        width: 400px;
+    }
+    .button a{
+        color: aliceblue;
+        text-decoration: none;
+        font-size: 80px;
+        background-color: green;
+        padding:10px 40px;
+        margin-bottom: 1000px; 
+    }
+    .button{
+        text-align: center;
+    }
+    .info{
+        margin-left: 20px;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        
+        
+    }
+    h1, h2{
+        font-weight:normal;
+    }
+    .titulo{
+        display: flex;
+        
+    }
+    .imagem_seta{
+        position: absolute;
+        width: 70px;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    .zo{
+        vertical-align: 100px;
+        margin: 0;
+        margin-top: 10px;
+        margin-left: 700px;
+        font-size: 90px;
+        color: aliceblue;
+    }
+    
 } 
 300
